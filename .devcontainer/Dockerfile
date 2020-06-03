@@ -67,6 +67,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
     fswatch \
     python3-pip \
     python3-setuptools \
-    python3-dev
+    python3-dev \
+    ssh
 
 RUN pip3 install livereload
